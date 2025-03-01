@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 import os
 app = Flask(__name__)
-DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1314235578333790240/6lvqKF7AyKPQtq5T_BuyeV3YD_7n__06COmHmSgDrq1UvrfrUlSByFzYMfW0-3iOoRdu'
+DISCORD_WEBHOOK_URL = ''
 def get_ip_info(ip):
     try:
         response = requests.get(f"http://ip-api.com/json/{ip}")
