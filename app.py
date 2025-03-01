@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 app = Flask(__name__)
 DISCORD_WEBHOOK_URL = '' # Discord Webhook URL here to receive logs to discord server
+
 def get_ip_info(ip):
     try:
         response = requests.get(f"http://ip-api.com/json/{ip}")
